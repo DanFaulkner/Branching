@@ -7,6 +7,12 @@
 
 
 ### Information Commands
-*`git status` - display current status of local working directory/repository
-*`git log` - list commit history
-*`git log --oneline` - list commit history compact Information
+* `git status` - display current status of local working directory/repository
+* `git log` - list commit history
+* `git log --oneline` - list commit history compact Information
+
+
+### Branching Commands
+* `git branch` - List local git branches
+* `git branch newBranch` - Crate local branch 'newBranch'
+* `git checkout newBranch` - checkout local branch 'newBranch'
