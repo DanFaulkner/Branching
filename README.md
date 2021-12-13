@@ -1,5 +1,6 @@
 ## Git Cheat Sheet
 
+Summary of Git Commands.
 ### Basic Commands
 * `git init` - Initialize local Git repository
 * `git add .` - Add all files in and under current directory to git index, staging them for commit
