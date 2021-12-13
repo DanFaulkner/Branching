@@ -7,12 +7,18 @@
 
 
 ### Information Commands
-* `git status` - display current status of local working directory/repository
-* `git log` - list commit history
-* `git log --oneline` - list commit history compact Information
+* `git status` - Display current status of local working directory/repository
+* `git log` - List commit history
+* `git log --oneline` - List commit history compact Information
 
 
 ### Branching Commands
 * `git branch` - List local git branches
 * `git branch newBranch` - Crate local branch 'newBranch'
-* `git checkout newBranch` - checkout local branch 'newBranch'
+* `git checkout newBranch` - Checkout local branch 'newBranch'
+* `git branch -M otherBranch` - Rename current branch to 'otherBranch'
+
+### Remote Commands
+* `git remote add origin remoteUrl` - Add alias "origin" for remote repository Url "remoteUrl"
+* `git push origin main` - Push locally-committed changes to `main` branch on remote repository
+* `git push -u origin main` - Same, setting "origin main" as default for subsequent `git push`
